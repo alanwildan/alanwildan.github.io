@@ -13,18 +13,26 @@ new Vue({
         {
           name: "Gotoubun No Katachi",
           artist: "Nakanoke no Itsutsugo",
-          cover: "https://raw.githubusercontent.com/nino-chan02/musicnime/main/img/3.jpg",
-          source: "https://raw.githubusercontent.com/nino-chan02/musicnime/main/mp3/3.mp3",
-          url: "https://youtu.be/Z6D_zJ2gyg0",
+          cover: "https://raw.githubusercontent.com/alanwildan/alanwildan.github.io/music-play/img/gotoubhun.jpg",
+          source: "https://raw.githubusercontent.com/alanwildan/alanwildan.github.io/music-play/Gotoubhun No Katachi.mp3",
+          url: "https://youtu.be/eWmyPgluj2U",
           favorited: false
         },
         {
           name: "Omoide Shiritori",
           artist: "DIALOGUE+",
-          cover: "https://raw.githubusercontent.com/nino-chan02/musicnime/main/img/4.jpg",
-          source: "https://raw.githubusercontent.com/nino-chan02/musicnime/main/mp3/4.mp3",
+          cover: "https://raw.githubusercontent.com/alanwildan/alanwildan.github.io/music-play/img/omoide.jpg",
+          source: "https://raw.githubusercontent.com/alanwildan/alanwildan.github.io/music-play/DIALOGUEおもいでしりとりMusic Video Full ver.4th Single.mp3",
           url: "https://youtu.be/1GMar6F_ovY",
           favorited: false
+        },
+        {
+        name: "Never Gonna Give you up",
+        artist: "Rick Astley",
+        cover: "https://raw.githubusercontent.com/alanwildan/alanwildan.github.io/music-play/img/rig.jpg",
+        source: "https://raw.githubusercontent.com/alanwildan/alanwildan.github.io/music-play/rick.mp3",
+        url: "https://youtu.be/dQw4w9WgXcQ",
+         favorited: false
         }
       ],
       currentTrack: null,
