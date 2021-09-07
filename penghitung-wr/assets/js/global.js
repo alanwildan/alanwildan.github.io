@@ -3,7 +3,7 @@ function welcomeMsg() {
     let array = 0;
 
     const takapedia = `<a href="https://msha.ke/takapedia/" target="_blank">takapedia</a>`;
-    const IgTaka = `<a href="https://www.instagram.com/taka_pedia/" target="_blank">IgTakapedis</a>`;
+    const IgTaka = `<a href="https://www.instagram.com/taka_pedia/" target="_blank">instagram</a>`;
     const whatsapp = `<a href="https://api.whatsapp.com/send?phone=6285793432434" target="_blank">WhatsApp</a>`;
     const instagram = `<a href="https://www.instagram.com/shitpost.id_._/" target="_blank">Instagram</a>`
 
