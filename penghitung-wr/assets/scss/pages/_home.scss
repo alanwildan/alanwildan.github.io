@@ -1,0 +1,46 @@
+.sosmed {
+    margin-top: 225px;
+}
+
+.mlImg {
+    width: 127.5px;
+}
+
+.animation {
+    animation: animation-msg 1s alternate;
+}
+
+.welcomeMsg p,
+.welcomeMsg a {
+    font-size: 11px;
+}
+
+.welcomeMsg a {
+    color: #fff;
+    text-decoration: underline !important;
+    font-weight: 600 !important;
+}
+
+@keyframes animation-msg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .welcomeMsg {
+        background-color: transparent !important;
+        border-bottom: 1px solid gray;
+        color: $text-color !important;
+        & p,
+        & a {
+            font-size: 12px;
+        }
+        & a {
+            color: $text-color !important;
+        }
+    }
+}
