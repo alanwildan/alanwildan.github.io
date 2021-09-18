@@ -179,7 +179,8 @@
 
     </body>
 
-function getvisitor(){
+<script>
+	    function getvisitor(){
               var xhr = new XMLHttpRequest();
               var url = 'https://api.countapi.xyz/hit/alanwildan-api.herokuapp.com/visits';
               xhr.onloadend = function(){
@@ -189,4 +190,5 @@ function getvisitor(){
               xhr.open("GET", url, true);
               xhr.send();
   }
+  </script>
 </html>
