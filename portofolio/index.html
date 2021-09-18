@@ -11,7 +11,7 @@
 
         <title>Portfolio website complete</title>
     </head>
-    <body>
+    <body id="page-top" onload="getvisitor();">
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
@@ -151,10 +151,18 @@
             </section>
         </main>
 
+<!--===== VISITOR =====-->
+<section class="contact section" id="visitor">
+                <h2 class="section-title">visitor</h2>
+<div class="visitor" id="visitor">00</div>
+</span>
+<span>Total Visitor</span>
+</section>
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Alan</p>
             <div class="footer__social">
+                <a href="https://github.com/alanwildan" class="footer__icon"><i class='bx bxl-github' ></i></a>
                 <a href="httpa://alanwildan-api.herokuapp.com/api" class="footer__icon"><i class='bx bxl-google' ></i></a>
                 <a href="https://www.instagram.com/shitpost.id_._" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://wa.me/6275158410962" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
@@ -168,5 +176,17 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+
     </body>
+
+function getvisitor(){
+              var xhr = new XMLHttpRequest();
+              var url = 'https://api.countapi.xyz/hit/alanwildan-api.herokuapp.com/visits';
+              xhr.onloadend = function(){
+             data = JSON.parse(this.responseText);
+  document.getElementById("visitor").textContent = data.value
+              };
+              xhr.open("GET", url, true);
+              xhr.send();
+  }
 </html>
