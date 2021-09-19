@@ -64,10 +64,10 @@ const clockText = () =>{
     textAmPm.innerHTML = ampm
 
     // If you want to show the name of the day of the week
-    // let week = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat']
+    // let week = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum'at', 'Sabtu']
 
     // We get the months of the year and show it
-    let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    let months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
 
     // We show the day, the month and the year
     dateDay.innerHTML = day
